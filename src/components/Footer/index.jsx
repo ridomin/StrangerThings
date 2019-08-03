@@ -9,24 +9,24 @@ export default function Footer() {
           <div className="col-8 col-md-5">
             <h5 className={styles.title}>StrangerThings</h5>
             <p className={styles.description}>
-              This is placeholder text. Your web app description goes here.
+              Real Devices doing Stranging Things with Azure IoT platform
             </p>
           </div>
           <div className="col-2">
             <ul className="list-unstyled">
               <li>
                 <a className={styles.footerlink} href="/">
-                  Example Link
+                  IoT Hub
                 </a>
               </li>
               <li>
                 <a className={styles.footerlink} href="/">
-                  Example Link
+                  Edge Compputing
                 </a>
               </li>
               <li>
                 <a className={styles.footerlink} href="/">
-                  Example Link
+                  Advanced Time Series Insights
                 </a>
               </li>
             </ul>

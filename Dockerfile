@@ -1,5 +1,10 @@
 FROM node:10
 ENV DEBIAN_FRONTEND=noninteractive
+
+WORKDIR /usr/app
+
+COPY . .
+
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils 2>&1 \ 
     #
