@@ -52,8 +52,8 @@ export default class Home extends Component {
     } = this.state;
     return (
       <main id="mainContent">
-        <div className={classnames("text-center", styles.header)}>
-          <h1>Stranger(Io)Things</h1>
+        <div className={classnames("text-center hero", styles.header)}>
+          <h1>StrangerThings</h1>
           <p>A real collection of devices doing Stranger Things with the Azure IoT platform.</p>
           <a
             href="https://github.com/Microsoft/WebTemplateStudio"
@@ -74,7 +74,7 @@ export default class Home extends Component {
                 key={textAssets.id}
                 header={textAssets.title}
                 description={textAssets.shortDescription}
-                image={Hero}
+                image={GreyBox}
               />
             ))}
           </div>

@@ -26,3 +26,7 @@ button:active {
   outline: none !important;
   box-shadow: none !important;
 }
+
+.hero {
+  background-image: url(./images/Hero.png)
+}
