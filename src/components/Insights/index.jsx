@@ -6,7 +6,7 @@ import GreyBox from "../../images/GreyBox.svg";
 import styles from "./grid.module.css";
 import CONSTANTS from "../../constants";
 
-export default class Grid extends Component {
+export default class Insights extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -64,7 +64,7 @@ export default class Grid extends Component {
 
         <div className="container">
           <div className="row justify-content-center py-5">
-            <h1>Bootstrap Grid Template</h1>
+            <h1>Bootstrap Insights Template</h1>
           </div>
 
           <div className="row justify-content-around text-center pb-5">

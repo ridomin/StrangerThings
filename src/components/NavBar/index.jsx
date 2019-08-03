@@ -15,17 +15,17 @@ export default function NavBar() {
           StrangerThings
         </Link>
         <div className="navbar-nav">
-          <Link className="nav-item nav-link active" to="Grid">
-            Grid
+          <Link className="nav-item nav-link active" to="Home">
+            Home
           </Link>
-          <Link className="nav-item nav-link active" to="List">
-            List
+          <Link className="nav-item nav-link active" to="Devices">
+            Devices
           </Link>
-          <Link className="nav-item nav-link active" to="Master_Detail">
-            Master_Detail
+          <Link className="nav-item nav-link active" to="Insights">
+            Insights
           </Link>
-          <Link className="nav-item nav-link active" to="Blank">
-            Blank
+          <Link className="nav-item nav-link active" to="Actions">
+            Actions
           </Link>
         </div>
       </nav>

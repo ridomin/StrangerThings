@@ -4,10 +4,10 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-import Grid from "./components/Grid";
-import List from "./components/List";
-import Master_Detail from "./components/Master_Detail";
-import Blank from "./components/Blank";
+import Home from "./components/Home";
+import Devices from "./components/Devices";
+import Insights from "./components/Insights";
+import Actions from "./components/Actions";
 //TODO Web Template Studio: Add routes for your new pages here.
 class App extends Component {
   render() {
@@ -15,11 +15,11 @@ class App extends Component {
       <React.Fragment>
         <NavBar />
         <Switch>
-          <Redirect exact path = "/" to = "/Grid" />
-          <Route path = "/Grid" component = { Grid } />
-          <Route path = "/List" component = { List } />
-          <Route path = "/Master_Detail" component = { Master_Detail } />
-          <Route path = "/Blank" component = { Blank } />
+          <Redirect exact path = "/" to = "/Home" />
+          <Route path = "/Home" component = { Home } />
+          <Route path = "/Devices" component = { Devices } />
+          <Route path = "/Insights" component = { Insights } />
+          <Route path = "/Actions" component = { Actions } />
         </Switch>
         <Footer />
       </React.Fragment>

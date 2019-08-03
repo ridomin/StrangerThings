@@ -4,11 +4,6 @@ const sampleData = require("../sampleData");
 
 
 const router = express.Router();
-// MasterDetail Page Endpoint
-router.get(CONSTANTS.ENDPOINT.MASTERDETAIL, (req, res) => {
-  res.json(sampleData.textAssets);
-});
-
 // LIST ENDPOINTS
 router.get(CONSTANTS.ENDPOINT.LIST, function(req, res) {
   res.json(sampleData.listTextAssets);
@@ -35,6 +30,11 @@ router.delete(CONSTANTS.ENDPOINT.LIST + "/:_id", function(req, res) {
   } else {
     res.status(404).send("Could not find item with id:" + _id);
   }
+});
+
+// MasterDetail Page Endpoint
+router.get(CONSTANTS.ENDPOINT.MASTERDETAIL, (req, res) => {
+  res.json(sampleData.textAssets);
 });
 
 // Grid Page Endpoint

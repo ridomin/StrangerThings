@@ -23,8 +23,8 @@ export default function MasterDetailPage(props) {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb bg-white mb-0">
               <li className="breadcrumb-item">
-                <a className={styles.breadCrumbLink} href="/Master_Detail">
-                  Master_Detail
+                <a className={styles.breadCrumbLink} href="/Devices">
+                  Devices
                 </a>
               </li>
               <li className="breadcrumb-item active" aria-current="page">

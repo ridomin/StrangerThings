@@ -4,7 +4,7 @@ import ListForm from "./ListForm";
 import WarningMessage from "../WarningMessage";
 import CONSTANTS from "../../constants";
 
-export default class List extends Component {
+export default class Actions extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -110,7 +110,7 @@ export default class List extends Component {
       <main id="mainContent" className="container">
         <div className="row">
           <div className="col mt-5 p-0">
-            <h3>Bootstrap List Template</h3>
+            <h3>Bootstrap Actions Template</h3>
           </div>
           <div className="col-12 p-0">
             <ListForm

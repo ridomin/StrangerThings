@@ -7,7 +7,7 @@ import GreyAvatar from "../../images/GreyAvatar.svg";
 import styles from "./masterdetail.module.css";
 import CONSTANTS from "../../constants";
 
-export default class Master_Detail extends Component {
+export default class Devices extends Component {
   constructor(props) {
     super(props);
 
