@@ -22,7 +22,7 @@ RUN apt-get update \
     #
     # Produce FrontEnd
     && yarn run build \
-    && mv build server
+    && mv build server \
 
     # Clean up
     && apt-get autoremove -y \
