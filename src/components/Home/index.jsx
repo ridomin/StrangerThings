@@ -3,6 +3,7 @@ import classnames from "classnames";
 import GridComponent from "./GridComponent";
 import WarningMessage from "../WarningMessage";
 import GreyBox from "../../images/GreyBox.svg";
+import Hero from "../../images/Hero.png";
 import styles from "./grid.module.css";
 import CONSTANTS from "../../constants";
 
@@ -73,7 +74,7 @@ export default class Home extends Component {
                 key={textAssets.id}
                 header={textAssets.title}
                 description={textAssets.shortDescription}
-                image={GreyBox}
+                image={Hero}
               />
             ))}
           </div>
