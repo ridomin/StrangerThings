@@ -26,7 +26,7 @@ export default function Footer() {
               </li>
               <li>
                 <a className={styles.footerlink} href="/">
-                  Advanced Time Series Insights
+                  Visual Studio
                 </a>
               </li>
             </ul>
