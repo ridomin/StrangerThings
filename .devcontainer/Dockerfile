@@ -1,10 +1,19 @@
+#-------------------------------------------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License. See https://go.microsoft.com/fwlink/?linkid=2090316 for license information.
+#-------------------------------------------------------------------------------------------------------------
+
 FROM node:10
+
+# Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
+
+# Configure apt and install packages
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils 2>&1 \ 
     #
     # Verify git and needed tools are installed
-    # && apt-get install -y git procps \
+    && apt-get install -y git procps \
     #
     # Remove outdated yarn from /opt and install via package 
     # so it can be easily updated via apt-get upgrade yarn
@@ -20,10 +29,6 @@ RUN apt-get update \
     # Install eslint globally
     && npm install -g eslint \
     #
-    # Produce FrontEnd
-    && yarn run build \
-    && mv build server
-
     # Clean up
     && apt-get autoremove -y \
     && apt-get clean -y \
@@ -31,7 +36,3 @@ RUN apt-get update \
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
-
-EXPOSE 3001
-
-CMD ["node", "server/server.js"]

@@ -19,8 +19,8 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company A",
-    status: "Closed",
+    title: "Device A",
+    status: "Online",
     shipTo: "Francisco Pérez-Olaeta",
     orderTotal: 2490.0,
     orderDate: new Date(2017, 5, 24).toDateString(),
@@ -29,7 +29,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company B",
+    title: "Device  B",
     status: "Closed",
     shipTo: "Soo Jung Lee",
     orderTotal: 1760.0,
@@ -39,7 +39,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company C",
+    title: "Device C",
     status: "Shipped",
     shipTo: "Run Liu",
     orderTotal: 665.0,
@@ -49,7 +49,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company D",
+    title: "Device D",
     status: "Shipped",
     shipTo: "Soo Jung Lee",
     orderTotal: 560.0,
@@ -59,7 +59,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company E",
+    title: "Device E",
     status: "New",
     shipTo: "John Rodman",
     orderTotal: 810.0,
@@ -69,7 +69,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company F",
+    title: "Device F",
     status: "New",
     shipTo: "Elizabeth Andersen",
     orderTotal: 196.5,
@@ -79,7 +79,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company G",
+    title: "Device G",
     status: "Closed",
     shipTo: "Peter Krschne",
     orderTotal: 270.0,
@@ -89,7 +89,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company H",
+    title: "Device H",
     status: "Closed",
     shipTo: "Sven Mortensen",
     orderTotal: 736.0,
@@ -99,7 +99,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Company I",
+    title: "Device I",
     status: "Shipped",
     shipTo: "Anna Bedecs",
     orderTotal: 800.0,
