@@ -54,9 +54,9 @@ export default class Home extends Component {
       <main id="mainContent">
         <div className={classnames("text-center hero", styles.header)}>
           <h1>StrangerThings</h1>
-          <p>A real collection of devices doing Stranger Things with the Azure IoT platform.</p>
+          <p>A real collection of devices doing stranging things with the Azure IoT platform.</p>
           <a
-            href="https://github.com/Microsoft/WebTemplateStudio"
+            href="https://github.com/ridomin/strangerthings"
             className="btn btn-primary my-2"
           >
             Link to our Github

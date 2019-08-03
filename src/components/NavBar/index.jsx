@@ -15,9 +15,6 @@ export default function NavBar() {
           StrangerThings
         </Link>
         <div className="navbar-nav">
-          <Link className="nav-item nav-link active" to="Home">
-            Home
-          </Link>
           <Link className="nav-item nav-link active" to="Devices">
             Devices
           </Link>

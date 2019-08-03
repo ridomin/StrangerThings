@@ -29,8 +29,8 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Device  B",
-    status: "Closed",
+    title: "Azure Sphere",
+    status: "Online",
     shipTo: "Soo Jung Lee",
     orderTotal: 1760.0,
     orderDate: new Date(2017, 5, 24).toDateString(),
@@ -39,8 +39,8 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Device C",
-    status: "Shipped",
+    title: "Raspberry Pi",
+    status: "Offline",
     shipTo: "Run Liu",
     orderTotal: 665.0,
     orderDate: new Date(2017, 6, 3).toDateString(),
@@ -49,8 +49,8 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Device D",
-    status: "Shipped",
+    title: "Nodevice",
+    status: "Connecting",
     shipTo: "Soo Jung Lee",
     orderTotal: 560.0,
     orderDate: new Date(2017, 6, 5).toDateString(),
