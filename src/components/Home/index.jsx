@@ -53,7 +53,7 @@ export default class Home extends Component {
       <main id="mainContent">
         <div className={classnames("text-center", styles.header)}>
           <h1>StrangerThings</h1>
-          <p>This is placeholder text. Your web app description goes here.</p>
+          <p>A real collection of devices doing Stranger Things with the Azure IoT platform.</p>
           <a
             href="https://github.com/Microsoft/WebTemplateStudio"
             className="btn btn-primary my-2"
@@ -64,7 +64,7 @@ export default class Home extends Component {
 
         <div className="container">
           <div className="row justify-content-center py-5">
-            <h1>Bootstrap Home Template</h1>
+            <h1>Devices in Action</h1>
           </div>
 
           <div className="row justify-content-around text-center pb-5">
