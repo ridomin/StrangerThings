@@ -53,7 +53,7 @@ export default class Home extends Component {
     return (
       <main id="mainContent">
         <div className={classnames("text-center", styles.header)}>
-          <h1>StrangerThings</h1>
+          <h1>Stranger(Io)Things</h1>
           <p>A real collection of devices doing Stranger Things with the Azure IoT platform.</p>
           <a
             href="https://github.com/Microsoft/WebTemplateStudio"

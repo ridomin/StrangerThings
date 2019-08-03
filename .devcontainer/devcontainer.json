@@ -1,5 +1,5 @@
 {
-    "name": "Node.js Sample",
+    "name": "Ubuntu Node",
     "dockerFile": "Dockerfile",
     "appPort": 3000,
     "extensions": [

@@ -19,7 +19,7 @@ sampleData.textAssets = [
   {
     shortDescription: shortLoremIpsum,
     longDescription: longLoremIpsum,
-    title: "Device A",
+    title: "Azure IoT DevKit",
     status: "Online",
     shipTo: "Francisco Pérez-Olaeta",
     orderTotal: 2490.0,
