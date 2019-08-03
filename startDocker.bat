@@ -1,0 +1,1 @@
+docker run -it  -v %CD%:/usr/app -p 3001:3001 strangerthings:v1 /bin/sh
