@@ -21,7 +21,7 @@ export default function Footer() {
               </li>
               <li>
                 <a className={styles.footerlink} href="/">
-                  Edge Compputing
+                  Edge Computing
                 </a>
               </li>
               <li>
